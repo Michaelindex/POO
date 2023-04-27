@@ -1,4 +1,4 @@
-from classe import AssinaturaTv
+"""from classe import AssinaturaTv
 tv = AssinaturaTv()
 print(tv)
 print('Canais DIsponíveis')
@@ -13,4 +13,9 @@ print('---')
 tv.canalAtivo = 25
 print('Canal Ativo')
 print(tv.canalAtivo)
-print('---')
+print('---') """
+
+from classe import Valor
+
+geladeira = Valor()
+print(f"A descrição é:{geladeira.descricao}, o Preço de Custo foi:{geladeira.precoCusto} e o Preço de Venda é:{geladeira.precoVenda}")

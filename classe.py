@@ -38,3 +38,26 @@ class AssinaturaTv:
         except:
             index=-1
             print(f'O canal {canal} não está disponível')
+
+
+
+
+
+
+class Valor:
+    def __init__(self, descricao, precoCusto):
+        self.descricao = descricao
+        self.precoCusto = precoCusto
+        self.__precoVenda = None
+    @property
+    def precoVenda(self):
+        return(self.__precoVenda)
+    @precoVenda.setter
+    def precoVenda(self, pvenda):
+        if pvenda>self.precoCusto:
+            self.__precoVenda=pvenda
+        else:
+            print("***O valor inserido é menor que o preço de custo***")
+    
+    
+        
