@@ -1,3 +1,6 @@
+
+
+
 class Produto:
     def __init__(self, descricao, preco):
         self.descricao = descricao
@@ -58,6 +61,3 @@ class Valor:
             self.__precoVenda=pvenda
         else:
             print("***O valor inserido é menor que o preço de custo***")
-    
-    
-        
